@@ -4,43 +4,62 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
+	background:rgba(255,255,255,0);
 	color:rgba(25,25,25,1);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-weight:300;
 }
 
-h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+h1{	font-family: 'Roboto', sans-serif;
+	font-weight:800;
+font-size:3em
 }
 
+h3 {font-family: 'Roboto', sans-serif;
+font-weight:800;
+font-size: 2em
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight:800;
+	font-size: 2em
+
+
+}
+
+h2{	font-family: 'Roboto Mono', monospace;
+	font-weight:500;
+
+}
 h1{
 	letter-spacing:0.1em;
 	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
+	letter-spacing:0.02em;
+	color:rgba(255,255,255,0.6);
+	padding:0.2em 0;
 	text-shadow: 1px 1px 0 #999;
-	text-align:center;		
+	text-align:center;
 }
 
 h3{
-	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
-	padding:2em 0 0.6em 0; 
+	letter-spacing:0.2em;
+	color:rgba(0,0,0,.60);
+	padding:2em 0 0.6em 0;
 	text-shadow: 1px 1px 0 #ccc;
-	text-align:center;	
+	text-align:center;
 }
 
 h4, h5, h6{
 	font-weight:left;
-	font-weight:600; 	
+	font-weight:600;
+
+
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -94,15 +113,15 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	background-color:rgba(242,231,15,0.4);
+	background-image:url('media/feña.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 3% 40% 1% 2%;}
 
-.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+.primera h5{padding: 4% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
 
 .primera p{padding: 2% 40% 2% 2%;}
 
@@ -111,8 +130,8 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	background-color:rgba(242,231,15,0.4);
+	background-image:url('media/jesu.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -120,7 +139,7 @@ video{
 
 .segunda h4{padding: 2% 2% 1% 40%;}
 
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+.segunda h5{padding: 5% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
 
 .segunda p{padding: 2% 2% 2% 40%;}
 
@@ -134,19 +153,19 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+	background:linear-gradient(to top, #F2E70F, #FCFCFC);
 }
 
 .item {
 	width:23%;
 	margin:1%;
 	color:#333;
-	background:white;
-	box-shadow:0 0 5px rgba(0,0,0,.1);
+	background:black;
+	box-shadow:0 0 5px rgba(255,255,0,0);
 }
 
 .item:hover{
-	cursor:crosshair;
+	cursor:help;
 }
 
 .item figure{
@@ -154,42 +173,44 @@ video{
 }
 
 .item figure img{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:-4px;
 	filter: grayscale(1);
 }
 
 .item:hover figure img{
 	transform:scale(1.25);
-	filter: grayscale(0);	
+	filter: grayscale(0);
 	transition:all ease-out 0.5s;
 }
 
 .item h4{
-	font-size:1em;
+	font-size:3em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
+	color: #939393
 }
 
 .item p{
 	font-size:0.875em;
 	letter-spacing:0.05em;
 	margin:2% 5% 6% 5%;
+	color:#FFFFFF
 }
 
 footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'Roboto Mono', monospace;
+	font-weight:100;
 }
 
 footer p{
 	text-transform:uppercase;
 	letter-spacing:0.1em;
-	font-size:0.9em;
+	font-size:1em;
 	}
 
 footer hr{
